@@ -73,4 +73,7 @@ function parse_git_dirty {
 }
 
 # export PS1="\u|||\`parse_git_branch\` "
-PS1="\[\e[m\]\[\e[0;35m\]\h\[\e[m\]\[\e[1;31m\]|\[\e[0;33m\]\A\[\e[1;31m\]|\[\e[m\]\[\e[0;36m\]\W\[\e[m\]\[\e[1;31m\]|\`parse_git_branch\`\[\e[0;36m\]⇒ \[\e[m\]"
+
+# PS1X='$(p="${PWD#${HOME}}"; [ "${PWD}" != "${p}" ] && printf "~";IFS=/; for q in ${p:1}; do printf /${q:0:1}; done; printf "${q:1}")'
+PS1X='$(sed "s:\([^/\.]\)[^/]*/:\1/:g" <<< ${PWD/#$HOME/\~})'
+PS1="\[\e[m\]\[\e[0;35m\]\h\[\e[m\]\[\e[1;31m\]|\[\e[0;33m\]\A\[\e[1;31m\]|\[\e[m\]\[\e[0;36m\]${PS1X}\[\e[m\]\[\e[1;31m\]|\`parse_git_branch\`\[\e[0;36m\]⇒ \[\e[m\]"
