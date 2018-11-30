@@ -8,10 +8,10 @@ function parse_git_branch() {
 
         if [[ $STAT == *"cle"* ]]
         then
-            STAT=${STAT/cle}
-           echo -e "\e[1;36m[\u263a ${BRANCH}${STAT}]\e[1;31m|"
-        else
-           echo -e "[\u2639 ${BRANCH}${STAT}]|"
+           STAT=${STAT/cle}
+           echo "\e[1;36m[☺ ${BRANCH}${STAT}]\e[1;31m|"
+       else
+           echo "[☹  ${BRANCH}${STAT}]|"
         fi
     else
         echo ""
