@@ -45,7 +45,7 @@ function parse_git_dirty {
         bits="↓${bits}"
     fi
     if [ "${staged}" == "0" ]; then
-        bits="\uf22d${bits}"
+        bits="${bits}"
     fi
     if [ "${newfile}" == "0" ]; then
         bits="+${bits}"
