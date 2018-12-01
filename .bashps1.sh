@@ -9,8 +9,7 @@ function parse_git_branch() {
         if [[ $STAT == *"cle"* ]]
         then
            STAT=${STAT/cle}
-#           tput setaf 2
-           echo "[☺  ${BRANCH}${STAT}]|"
+           echo -e  "\001\e[0;32m\002[☺  ${BRANCH}${STAT}]\001\e[0;31m|\002"
         else
            echo "[☹  ${BRANCH}${STAT}]|"
         fi
@@ -77,4 +76,8 @@ function parse_git_dirty {
 
 # PS1X='$(p="${PWD#${HOME}}"; [ "${PWD}" != "${p}" ] && printf "~";IFS=/; for q in ${p:1}; do printf /${q:0:1}; done; printf "${q:1}")'
 PS1X='$(sed "s:\([^/\.]\)[^/]*/:\1/:g" <<< ${PWD/#$HOME/\~})'
-PS1="\[\e[m\]\[\e[0;35m\]\h\[\e[m\]\[\e[1;31m\]|\[\e[0;33m\]\A\[\e[1;31m\]|\[\e[m\]\[\e[0;36m\]${PS1X}\[\e[m\]\[\e[1;31m\]|\`parse_git_branch\`\[\e[0;36m\]⇒ \[\e[m\]"
+#PS1="\[\e[m\]\[\e[0;35m\]\h\[\e[m\]\[\e[1;31m\]|\[\e[0;33m\]\A\[\e[1;31m\]|\[\e[m\]\[\e[0;36m\]${PS1X}\[\e[m\]\[\e[1;31m\]|\`parse_git_branch\`\[\e[1;35m\] \[\e[0;31m\]\[\e[0;33m\]\[\e[0;36m\] \[\e[m\]"
+#PS1="\[\e[m\]\[\e[0;35m\]\h\[\e[m\]\[\e[1;31m\]|\[\e[0;33m\]\A\[\e[1;31m\]|\[\e[m\]\[\e[0;36m\]${PS1X}\[\e[m\]\[\e[1;31m\]|\`parse_git_branch\`\[\e[1;35m\]•\[\e[0;31m\]•\[\e[0;33m\]•\[\e[0;36m\]•\[\e[m\]"
+PS1="\[\e[m\]\[\e[0;35m\]\h\[\e[m\]\[\e[1;31m\]|\[\e[0;33m\]\A\[\e[1;31m\]|\[\e[m\]\[\e[0;36m\]${PS1X}\[\e[m\]\[\e[1;31m\]|\`parse_git_branch\`\[\e[0;33m\]\[\e[0;34m\]\[\e[0;35m\]\[\e[0;36m\] \[\e[m\]"
+
+
