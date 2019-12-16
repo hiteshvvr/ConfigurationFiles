@@ -1,0 +1,2 @@
+Use Iosevka slab and
+Iosevka ss07 // monaco style or ss08 // pragmatapro style
