@@ -1,4 +1,3 @@
-
 print("Below are the usual symbols")
 print("Om1                  :   [2768]  \t\t", chr(2768))
 print("Om2                  :   [2384]  \t\t", chr(2384))
@@ -15,16 +14,16 @@ print("Ancher               :   [9875]  \t\t", chr(9875))
 print("Clock                :   [9202]  \t\t", chr(9202))
 
 print("you can also run the for loops by modifying the code")
-for j in range(20):
-  print(" ")
+for j in range(0,12,1):
   print("from", j*1000 , "to", j*1000+1000)
   for i in range(1000):
     m = 1000*j+i
     print(chr(m), end = " ")
+  print(" ")
 
 
-# for i in range(2000,2500,1):
-#   print("[",i,": ",chr(i),"]")
+for i in range(2500,3000,1):
+  print("[",i,": ",chr(i),"]")
 
 # print("Om: ", chr())¬
 # print("OmTamil: ", chr())¬
