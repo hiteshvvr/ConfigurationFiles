@@ -1,0 +1,9 @@
+#### INSTALLING TERMINATOR IN WSL #####
+Apart for installing x server and exporting display 
+sudo apt install dbus-x11
+sudo systemd-machine-id-setup
+
+
+bash -c -l "DISPLAY=:0 terminator &"
+
+echo export DISPLAY=\"localhost:0\" >> ~/.bashrc
