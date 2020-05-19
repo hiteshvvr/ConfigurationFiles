@@ -1,10 +1,12 @@
 [global_config]
   always_split_with_profile = True
+  borderless = True
+  broadcast_default = off
+  dbus = False
   enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   focus = mouse
   tab_position = hidden
   title_use_system_font = False
-  window_state = fullscreen
 [keybindings]
   split_horiz = <Alt>h
   split_vert = <Alt>v
@@ -13,6 +15,7 @@
   [[default]]
     [[[child1]]]
       parent = window0
+      profile = ayu_light
       type = Terminal
     [[[window0]]]
       parent = ""
@@ -22,7 +25,7 @@
   [[default]]
     background_color = "#fdf6e3"
     cursor_color = "#7c6f64"
-    font = Iosevka SS08 Medium 12
+    font = Iosevka Fixed SS08 Medium 12
     foreground_color = "#657b83"
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     scrollbar_position = hidden
@@ -43,6 +46,15 @@
     font = Iosevka SS08 Medium 12
     foreground_color = "#e6d4a3"
     palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[ayu_light]]
+    background_color = "#fafafa"
+    cursor_color = "#ff6a00"
+    font = Iosevka Fixed SS08 Medium 12
+    foreground_color = "#5c6773"
+    palette = "#000000:#ff3333:#86b300:#f29718:#41a6d9:#f07178:#4dbf99:#ffffff:#323232:#ff6565:#b8e532:#ffc94a:#73d8ff:#ffa3aa:#7ff1cb:#ffffff"
     scrollbar_position = hidden
     show_titlebar = False
     use_system_font = False
