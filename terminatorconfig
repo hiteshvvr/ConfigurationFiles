@@ -6,7 +6,11 @@
   enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   focus = mouse
   tab_position = hidden
+  title_inactive_fg_color = "#e9b96e"
+  title_transmit_bg_color = "#555753"
   title_use_system_font = False
+  scrollbar_position = hidden
+  font = Iosevka Medium 12
 [keybindings]
   split_horiz = <Alt>h
   split_vert = <Alt>v
@@ -23,38 +27,45 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#fdf6e3"
-    cursor_color = "#7c6f64"
-    font = Iosevka Fixed SS08 Medium 12
-    foreground_color = "#657b83"
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    cursor_color = "#aaaaaa"
     scrollbar_position = hidden
     show_titlebar = False
     use_system_font = False
+    use_theme_colors = True
   [[3024 Day]]
+    palette = "#090300:#db2d20:#01a252:#fded02:#01a0e4:#a16a94:#b5e4f4:#a5a2a2:#5c5855:#e8bbd0:#3a3432:#4a4543:#807d7c:#d6d5d4:#cdab53:#f7f7f7"
     background_color = "#f7f7f7"
     cursor_color = "#4a4543"
-    font = Iosevka SS08 Medium 12
     foreground_color = "#4a4543"
-    palette = "#090300:#db2d20:#01a252:#fded02:#01a0e4:#a16a94:#b5e4f4:#a5a2a2:#5c5855:#e8bbd0:#3a3432:#4a4543:#807d7c:#d6d5d4:#cdab53:#f7f7f7"
-    scrollbar_position = hidden
+    scroll_on_keystroke = False
     show_titlebar = False
     use_system_font = False
   [[Gruvbox Dark]]
+    palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
     background_color = "#1e1e1e"
     cursor_color = "#bbbbbb"
-    font = Iosevka SS08 Medium 12
     foreground_color = "#e6d4a3"
-    palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
-    scrollbar_position = hidden
     show_titlebar = False
     use_system_font = False
   [[ayu_light]]
+    palette = "#000000:#ff3333:#86b300:#f29718:#41a6d9:#f07178:#4dbf99:#ffffff:#323232:#ff6565:#b8e532:#ffc94a:#73d8ff:#ffa3aa:#7ff1cb:#ffffff"
     background_color = "#fafafa"
     cursor_color = "#ff6a00"
-    font = Iosevka Fixed SS08 Medium 12
     foreground_color = "#5c6773"
-    palette = "#000000:#ff3333:#86b300:#f29718:#41a6d9:#f07178:#4dbf99:#ffffff:#323232:#ff6565:#b8e532:#ffc94a:#73d8ff:#ffa3aa:#7ff1cb:#ffffff"
-    scrollbar_position = hidden
     show_titlebar = False
     use_system_font = False
+  [[mtrans]]
+   palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
+    background_darkness = 0.0
+    background_type = transparent
+    cursor_color = "#bbbbbb"
+    show_titlebar = False
+    use_theme_colors = True
+    use_system_font = False
+  [[Hybrid]]
+    palette = "#2a2e33:#b84d51:#b3bf5a:#e4b55e:#6e90b0:#a17eac:#7fbfb4:#b5b9b6:#1d1f22:#8d2e32:#798431:#e58a50:#4b6b88:#6e5079:#4d7b74:#5a626a"
+    background_color = "#161719"
+    cursor_color = "#b7bcba"
+    foreground_color = "#b7bcba"
+    use_system_font = False
+    show_titlebar = False
