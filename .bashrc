@@ -20,6 +20,7 @@ set -o vi
 alias l='ls -1X'
 alias ll='ls -lahX'
 alias lls='ls -lahS'
+alias ld='du -sh ./*'
 alias la='ls -aX'
 alias lx='ls -lX'
 alias c='clear'
