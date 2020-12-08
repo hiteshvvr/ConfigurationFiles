@@ -31,5 +31,6 @@ done
 # pip install abel
 # pip install colorlover
 # pip install pathlib 
-
-
+# pip install opencv-python
+# pip install PyQt5
+# pip install pyqtgraph
