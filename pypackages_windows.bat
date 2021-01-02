@@ -21,3 +21,4 @@ pip install pathlib
 pip install opencv-python
 pip install PyQt5
 pip install pyqtgraph
+pip install jupyter_contrib_nbextensions

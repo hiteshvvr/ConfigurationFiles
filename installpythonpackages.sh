@@ -1,7 +1,7 @@
 #!/bin/bash
 ## declare an array variable
 declare -a tarr=("element1" "element2" "element3")
-declare -a arr=("glob" "warnings" "os" "time" "multiprocessing" "plotly" "hvplot" "pprint" "peakutils" "pandas" "numpy" "lmfit" "pybroom" "uncertainties " "holoviews" "sty" "uproot" "abel" "colorlover" "pathlib " "opencv-python" "PyQt5" "pyqtgraph")
+declare -a arr=("glob" "warnings" "os" "time" "multiprocessing" "plotly" "hvplot" "pprint" "peakutils" "pandas" "numpy" "lmfit" "pybroom" "uncertainties " "holoviews" "sty" "uproot" "abel" "colorlover" "pathlib " "opencv-python" "PyQt5" "pyqtgraph" "jupyter_contrib_nbextensions")
 
 ## now loop through the above array
 for i in "${arr[@]}"
@@ -34,3 +34,4 @@ done
 # pip install opencv-python
 # pip install PyQt5
 # pip install pyqtgraph
+# pip install jupyter_contrib_nbextensions
