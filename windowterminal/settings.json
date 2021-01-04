@@ -46,9 +46,9 @@
                 "icon": "C:\\Users\\seeker\\Pictures\\bunnyicon.png",
                 // "backgroundImage": "C:\\Users\\seeker\\Pictures\\wallpaper\\high-resolution-minimalist-wallpaper-of-a-rubiks-cube-1440x900.jpg",
                 "backgroundImage": "D:\\wallp\\w2.jpg",
-                // "backgroundImageOpacity": 0.4,
-                "acrylicOpacity": 1,
-                "useAcrylic": true,
+                // "backgroundImageOpacity": 4,
+                // "acrylicOpacity": 0.3,
+                // "useAcrylic": true,
                 // "colorScheme":"ayu",
                 // "name": "Windows PowerShell",
                 // "commandline": "powershell.exe",
@@ -67,6 +67,10 @@
                 "name": "Ubuntu-18.04",
                 "source": "Windows.Terminal.Wsl",
                 "backgroundImage": "D:\\wallp\\l3.png",
+                // "backgroundImageOpacity": 0.74,
+                // "acrylicOpacity": 0.9,
+                // "useAcrylic": true,
+                
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -163,6 +167,9 @@
         // - "split": "auto" makes this pane open in the direction that provides the most surface area.
         // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
         // To learn more about panes, visit https://aka.ms/terminal-panes
-        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" }
+        // { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" },
+        { "command": { "action": "splitPane", "split": "vertical", "splitMode": "duplicate" }, "keys": "alt+v" },
+        { "command": { "action": "splitPane", "split": "horizontal", "splitMode": "duplicate" }, "keys": "alt+h" },
+        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+d" }
     ]
 }
