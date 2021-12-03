@@ -79,8 +79,9 @@ SMB="●"  # Possible Options   •  ○ ●
 USMB="ॐ " #Possible Options ⚝⚓ ॐ,िहतेश
 # USMB="िहतेश"
 #CondaEnviornment
-conenv=$CONDA_DEFAULT_ENV
-conenv=${CONDA_DEFAULT_ENV//[aeiou]}
+#conenv=$CONDA_DEFAULT_ENV
+#conenv=${CONDA_DEFAULT_ENV//[aeiou]}
+conenv=${CONDA_DEFAULT_ENV:0:3}
 
 
 musr=${USER//[aeiou]}@${HOSTNAME:0:4}
