@@ -3,11 +3,10 @@
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
-
+export PATH=/opt/homebrew/anaconda3/bin:/opt/homebrew/anaconda3/condabin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/CMake.app/Contents/bin
 # ~/.dircolors/themefile
 #eval $(gdircolors ~/.dircolors/dircolors.256dark)
 
-source ~/.bashps1.sh
 # User specific aliases and functions
 set -o vi
 
@@ -41,7 +40,7 @@ export TERM=xterm-256color
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH=$PATH:/Applications/CMake.app/Contents/bin
-source /usr/local/bin/geant4.sh
+#source /usr/local/bin/geant4.sh
 
 
 #==================SETUP FOR MIDAS==================
@@ -110,10 +109,27 @@ export UD="/mnt/d/"
 alias py='python'
 
 # source /usr/local/bin/thisroot.sh
-source "/usr/local/Cellar/root/6.18.04/bin/thisroot.sh"
+#source "/usr/local/Cellar/root/6.18.04/bin/thisroot.sh"
 
 alias root='root -l'
-export PATH="/Users/pinku/anaconda3/bin:$PATH"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/homebrew/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/homebrew/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/homebrew/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/homebrew/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
 cd 
 source .profile
 cd -
+
+source ~/.bashps1.sh
