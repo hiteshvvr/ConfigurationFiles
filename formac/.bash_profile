@@ -10,10 +10,6 @@ export PATH=/opt/homebrew/anaconda3/bin:/opt/homebrew/anaconda3/condabin:/opt/ho
 # User specific aliases and functions
 set -o vi
 
-#alias ls='gls --color=auto'
-#alias ll='ls -alh'
-#alias la='ls -1'
-
 alias c='clear'
 alias vi='vim'
 
@@ -128,8 +124,22 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-cd 
-source .profile
-cd -
+# source .profile
+
+
+alias c=clear
+# PATH="/Applications/CMake.app/Contents/bin":"$PATH"
+export PATH=$PATH:/Applications/CMake.app/Contents/bin
+# eval `gdircolors ~/.dircolors/dircolors.256dark`
+eval `gdircolors ~/.dircolors/mydircolor`
+# ~/.dircolors/themefile
+#eval $(gdircolors ~/.dircolors/dircolors.256dark)
+alias ls='gls --color=auto'
+alias ll='ls -lah'
+alias la='ls -a'
+alias l='ls -1'
+
+
+export PATH=$PATH:~/.mybashscripts
 
 source ~/.bashps1.sh

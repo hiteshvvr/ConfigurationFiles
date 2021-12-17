@@ -1,0 +1,2 @@
+conda activate analysis
+source ~/.bashps1.sh
