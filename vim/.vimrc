@@ -37,7 +37,7 @@ let g:ivim_user='Xiao-Ou Zhang' " User name
 let g:ivim_email='kepbod@gmail.com' " User email
 let g:ivim_github='https://github.com/kepbod' " User github
 " ivim color settings (hybrid, gruvbox or tender)
-let g:ivim_default_scheme='gruvbox'
+let g:ivim_default_scheme='ayu'
 " ivim ui setting
 let g:ivim_fancy_font=1 " Enable using fancy font
 let g:ivim_show_number=1 " Enable showing number
@@ -142,6 +142,7 @@ call plug#begin('~/.vim/bundle')
 
 if count(g:ivim_bundle_groups, 'ui') " UI setting
     Plug 'kristijanhusak/vim-hybrid-material' " Colorscheme hybrid material
+    Plug 'ayu-theme/ayu-vim' "Colorscheme ayu
     Plug 'morhetz/gruvbox' " Colorscheme gruvbox
     Plug 'jacoborus/tender.vim' " Colorscheme tender
     Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes' " Status line
@@ -313,6 +314,8 @@ if count(g:ivim_bundle_groups, 'ui')
     " Set status line colorscheme
     if g:ivim_default_scheme=='hybrid'
         let g:airline_theme='bubblegum'
+    elseif g:ivim_default_scheme=='ayu'
+        let g:airline_theme='ayu_light'
     elseif g:ivim_default_scheme=='tender'
         let g:tender_airline=1
         let g:airline_theme='tender'
@@ -384,7 +387,7 @@ endif
 "-------------------------------------------------
 
 syntax on " Enable syntax
-set background=light" Set background
+set background=light " Set background
 if !has('gui_running')
     set t_Co=256 " Use 256 colors
 endif
@@ -404,6 +407,9 @@ if count(g:ivim_bundle_groups, 'ui')
         colorscheme gruvbox
     elseif g:ivim_default_scheme=='tender'
         colorscheme tender
+    elseif g:ivim_default_scheme=='ayu'
+        let ayucolor="light"
+        colorscheme ayu
     endif
 else
     colorscheme desert
