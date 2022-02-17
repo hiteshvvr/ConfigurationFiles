@@ -2,7 +2,7 @@
 
 
 conda install -c conda-forge hvplot plotly peakutils pandas numpy lmfit pybroom uncertainties
-conda install -c conda-forge holoviews uproot pyabel sty colorlover opencv pyqt pyqtgraph
+conda install -c conda-forge holoviews uproot pyabel sty colorlover opencv pyqt pyqtgraph root
 conda install -c conda-forge jupyter_contrib_nbextensions
 
 pip install opencv-python
@@ -26,6 +26,7 @@ pip install uproot
 # conda install -c conda-forge pyqtgraph
 # conda install -c conda-forge jupyter_contrib_nbextensions
 
+# conda install -c conda-forge root
 
 
 

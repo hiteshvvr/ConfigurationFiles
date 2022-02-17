@@ -4,6 +4,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 export PATH=/opt/homebrew/anaconda3/bin:/opt/homebrew/anaconda3/condabin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/CMake.app/Contents/bin
+# export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/CMake.app/Contents/bin:/opt/homebrew/include/
 # ~/.dircolors/themefile
 #eval $(gdircolors ~/.dircolors/dircolors.256dark)
 
@@ -82,14 +83,15 @@ case "$TERM" in
     xterm|xterm-color|*-256color) color_prompt=yes;;
 esac
 
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
-fi
-
+# if ! shopt -oq posix; then
+#   if [ -f /usr/share/bash-completion/bash_completion ]; then
+#     . /usr/share/bash-completion/bash_completion
+#   elif [ -f /etc/bash_completion ]; then
+#     . /etc/bash_completion
+#   fi
+# fi
+# FOR BASH COMPLETION
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
 if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
