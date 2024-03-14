@@ -5,9 +5,9 @@ if [ $1 == "analysis" ]; then
     conda activate analysis
     echo "*********analysis********* activated"
 
-elif [ $1 == "daq60hz" ]; then
-    conda activate daq60hz
-    echo "*********daq60hz********* activated"
+elif [ $1 == "polarimetery" ]; then
+    conda activate polarimetery
+    echo "*********polarimetery********* activated"
 
 elif [ $1 == "base" ]; then
     conda activate base
@@ -16,6 +16,29 @@ elif [ $1 == "base" ]; then
 elif [ $1 == "nabonline" ]; then
     conda activate nabonline
     echo "*********nabonline********* activated"
+
+elif [ $1 == "geant4" ]; then
+    conda activate geant4
+    echo "*********geant4********* activated"
+
+elif [ $1 == "nabsimanalysis" ]; then
+    conda activate nabsimanalysis
+    echo "*********nabsimanalysis********* activated"
+
+elif [ $1 == "nlife" ]; then
+    conda activate nlife
+    echo "*********nlife********* activated"
+
+elif [ $1 == "penelope" ]; then
+    conda activate penelope
+    echo "*********penelope********* activated"
+
+
+
+elif [ $1 == "list" ]; then
+    echo "analysis polarimetery base nabonline geant4 nabsimanalysis penelope" 
+    echo "analysis --> For BL2 Analsysis" 
+
 
 fi
 

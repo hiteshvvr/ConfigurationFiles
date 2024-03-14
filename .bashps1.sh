@@ -75,7 +75,7 @@ function parse_git_dirty {
 
 # export PS1="\u|||\`parse_git_branch\` "
 # PS1X='$(p="${PWD#${HOME}}"; [ "${PWD}" != "${p}" ] && printf "~";IFS=/; for q in ${p:1}; do printf /${q:0:1}; done; printf "${q:1}")'
-SMB="●"  # Possible Options   •  ○ ●
+SMB="•"  # Possible Options   •  ○ ●⇉
 # USMB="⚝ " # Possible Options ⚓, 
 USMB="ॐ " #Possible Options ⚝⚓ ॐ,िहतेश
 # USMB="िहतेश"
