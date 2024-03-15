@@ -1,15 +1,22 @@
 #!/bin/bash
 
-if [$1 == 'normal']; then
-    conda install -c conda-forge numpy pandas scipy lmfit holoviews hvplot jupyter
+if [ $1 == "normal" ]; then
+    conda install -c conda-forge numpy pandas scipy lmfit holoviews hvplot jupyter peakutils
 
-elif [$1 == 'forpyqt']; then
+elif [ $1 == 'forpyqt' ]; then
     conda install -c conda-forge pyqt pyqtgraph jupyter
 
-elif [$1 == 'all']; then
+elif [ $1 == 'root' ]; then
+    conda install -c conda-forge root geant4 uproot
+
+elif [ $1 == 'all' ]; then
     conda install -c conda-forge hvplot plotly peakutils pandas numpy lmfit pybroom uncertainties holoviews uproot pyabel sty colorlover opencv pyqt pyqtgraph root
     conda install -c conda-forge jupyter jupyter_contrib_nbextensions uproot
 
+elif [ $1 == 'forjupyter' ]; then
+    conda install -c conda-forge jupyterlab_vim
+
+fi
 # pip install opencv-python
 # pip install uproot
 
