@@ -1,0 +1,14 @@
+#1714073951
+ls
+#1714073953
+ls
+#1714073954
+exit
+#1714073961
+history 
+#1714073972
+vim .mybashscripts/
+#1714074012
+cp ~/.bash_history ~/.mybashscripts/bash_history
+#1714074080
+exit

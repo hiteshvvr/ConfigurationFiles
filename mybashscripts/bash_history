@@ -1,0 +1,1457 @@
+ls
+#1711381874
+imgcat
+#1711381892
+imgcat ~/Desktop/passport\ photos/tvish_photo.jpg 
+#1711381910
+ls
+#1711381911
+c
+#1711381925
+ls
+#1711381932
+vim 
+#1711381942
+vim bunny
+#1711381966
+code bunny
+#1711381994
+mv bunny bunny.sh
+#1711381998
+code bunny.sh 
+#1711382019
+mv bunny.sh bunny.py
+#1711382026
+code bunny.py 
+#1711382093
+ls
+#1711382096
+rm bunny.py 
+#1711382102
+chmod 777 bunny 
+#1711382103
+clear
+#1711382105
+bunny 
+#1711382117
+vim bunny 
+#1711382127
+bunny 
+#1711382133
+clear
+#1711382137
+bunny
+#1711382154
+bunny
+#1711382169
+exit
+#1711382170
+exit
+#1711382174
+cd
+#1711382176
+cd dockerinstalls/
+#1711382176
+ls
+#1711382177
+clear
+#1711382236
+LS
+#1711382246
+bash -c "$(curl -L https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/install-paperless-ngx.sh)"
+#1711382764
+bash -c "$(curl -L https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/install-paperless-ngx.sh)"
+#1711382820
+brew install paperless
+#1711382835
+exit
+#1710965620
+ipconfig
+#1710965624
+ifconfig
+#1710965629
+c
+#1710965637
+ifconfig | grep gateway
+#1710965643
+ifconfig | grep eth
+#1710965655
+ifconfig | grep -i gate
+#1710965661
+ifconfig | grep -i def
+#1711381537
+docker
+#1711382837
+exit
+#1711384052
+cd
+#1711384054
+cd dockerinstalls/
+#1711384055
+ls
+#1711384066
+bash -c "$(curl -L https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/install-paperless-ngx.sh)"
+#1711384086
+brew install gnu-sed 
+#1711384098
+bash -c "$(curl -L https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/install-paperless-ngx.sh)"
+#1711384241
+lll
+#1711384242
+c
+#1711384243
+lll
+#1711384247
+ls paperless-ngx/
+#1711384258
+vim paperless-ngx/docker-compose.env 
+#1711384289
+bash -c "$(curl -L https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/install-paperless-ngx.sh)"
+#1711384320
+vim paperless-ngx/docker-compose.yml 
+#1711384366
+ls
+#1711384367
+c
+#1711384368
+ls
+#1711384379
+ls
+#1711384382
+cd ../
+#1711384382
+ls
+#1711384388
+rm -rf ./dockerinstalls/
+#1711384389
+ls
+#1711384600
+exit
+#1711384158
+bash -c "$(curl -L https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/install-paperless-ngx.sh)"
+#1711384604
+exit
+#1710573222
+ls
+#1710573245
+vimdiff XrayFluoPhysicsList.cc testoldcode/source/src/XrayFluoPhysicsList.cc 
+#1710573558
+ls
+#1710573566
+vim B1/exampleB1.cc 
+#1710732770
+ls
+#1710732774
+clear
+#1710732775
+ls
+#1711384654
+htop
+#1711384813
+exit
+#1711478363
+python
+#1710732817
+ls
+#1710732820
+cd HiteshNotebooks/
+#1710732820
+ls
+#1710732838
+. condaenv polarimetery
+#1710732844
+jupyter-notebook 
+#1710736101
+jupyter-lab
+#1710736151
+clear
+#1710736158
+. condaenv polarimetery
+#1710736160
+jupyter-lab
+#1710736434
+conda install nb_conda_kernels
+#1710739958
+jupyter-notebook 
+#1711591502
+clear
+#1711591502
+ls
+#1711591505
+jupyter-notebook 
+#1711983812
+c
+#1711983815
+bunny
+#1711983818
+c
+#1711992369
+ls
+#1711992372
+cd ..
+#1711992373
+ls
+#1711992412
+ls
+#1711992415
+ll
+#1711992982
+sudo pkill bluetoothd
+#1712341407
+sudo reboot
+#1712503346
+htop
+#1712503415
+ls
+#1712503417
+c
+#1712503418
+ls
+#1712503420
+htop
+#1712503523
+exit
+#1712503551
+htop
+#1712503867
+sudo reboot
+#1712597121
+exit
+#1712950144
+c
+#1712950145
+cd
+#1712950146
+ls
+#1712950147
+clear
+#1712950148
+ls
+#1712950157
+cd IndiaWork/ElectronImpact/
+#1712950158
+ls
+#1712950159
+clear
+#1712950159
+ls
+#1712950883
+ssh hrahangd@login.isaac.utk.edu
+#1712956890
+ssh hrahangd@login.isaac.utk.edu
+#1712956925
+exit
+#1712940734
+ls
+#1712940740
+vim answer98874678 
+#1712940754
+rm answer*
+#1712940755
+ls
+#1712940756
+clear
+#1712940757
+ls
+#1712940769
+vim eff16kev500microncarbon.e1042522 
+#1712940777
+vim eff16kev500microncarbon.o1042522 
+#1712940785
+ls
+#1712940790
+rm eff16kev500microncarbon.*
+#1712940791
+ls
+#1712940793
+rm a.out 
+#1712940794
+ls
+#1712940797
+vim project.f 
+#1712940916
+gfortran project.f
+#1712940921
+ls
+#1712940923
+./a.out 
+#1712942892
+ls
+#1712942899
+vim answer94 
+#1712942911
+mv answer94 answer94_1
+#1712942916
+./a.out 
+#1712943029
+ls
+#1712943032
+clear
+#1712943040
+vimdiff answer94*
+#1712943285
+ls
+#1712943295
+vim project.f 
+#1712943318
+cp project.f project_backup.f
+#1712943321
+vim project
+#1712943325
+vim project.f 
+#1712943368
+gfortran project.f
+#1712943373
+ls
+#1712943377
+rm answer94
+#1712943379
+./a.out 
+#1712943387
+vim answer94
+#1712943880
+pwd
+#1712945774
+vim project.f 
+#1712945818
+vim project.f 
+#1712945840
+gfortran project.f
+#1712945847
+vim project.f 
+#1712945856
+gfortran project.f
+#1712945861
+vim project.f 
+#1712945871
+gfortran project.f
+#1712945874
+./a.out 
+#1712945959
+ls
+#1712946326
+ls
+#1712946328
+vim answer94
+#1712946347
+vim project.f 
+#1712947116
+gfortran project.f
+#1712947119
+vim project.f 
+#1712947125
+gfortran project.f
+#1712947128
+./a.out 
+#1712947135
+vim answer94
+#1712947741
+mv answer94 answer94_electron
+#1712947750
+mv project_backup.f project.f 
+#1712947752
+vim project.f 
+#1712947963
+clear
+#1712947964
+ls
+#1712947981
+clear
+#1712947982
+ls
+#1712948945
+vim project.f 
+#1712948985
+ls
+#1712948988
+gfortran project.f
+#1712948992
+./a.out 
+#1712949741
+ls
+#1712949743
+ll
+#1712949744
+lll
+#1712956927
+ls
+#1712956930
+exit
+#1712950258
+history | grep ssh
+#1712950266
+history
+#1712950273
+cd
+#1712950274
+c
+#1712950275
+ls
+#1712950282
+ll
+#1712950285
+c
+#1712950285
+lll
+#1712950299
+vim .bash_history 
+#1712950324
+vim ssshconfigbackup 
+#1712956932
+exit
+#1712966391
+ls
+#1712966394
+exit
+#1712966409
+exit
+#1712966413
+ssh hrahangd@login.isaac.utk.edu
+#1713057793
+c
+#1713057793
+ls
+#1713057799
+ssh hrahangd@login.isaac.utk.edu
+#1713057954
+exit
+#1713049506
+ssh hrahangd@login.isaac.utk.edu
+#1713057814
+ssh hrahangd@login.isaac.utk.edu
+#1713057958
+exit
+#1712869404
+cd "/Users/seeker/IndiaWork/ElectronImpact/penelope/Simulation/Lead/results/30kevdiffthick/thick0.1mm" && clear
+#1712869407
+pwd
+#1712869579
+cd ../../
+#1712869580
+ls
+#1712869582
+cd ../
+#1712869582
+ls
+#1712869584
+cd ../
+#1712869585
+ls
+#1712869587
+cd ../
+#1712869587
+ls
+#1712869589
+cd notebook/
+#1712869590
+ls
+#1712869591
+c
+#1712869594
+cd displayfiles/
+#1712869594
+ls
+#1712869622
+code display.py 
+#1712869741
+ls
+#1712869745
+git add -A
+#1712869827
+git commit -m "added filename to the output"
+#1712869832
+git push orgin main
+#1712869839
+git push origin main
+#1712869847
+ls
+#1712869851
+python example.py 
+#1712869861
+c
+#1712869863
+python example.py 
+#1712869890
+vim example.py 
+#1712869937
+python example.py 
+#1712869956
+git add -A
+#1712869976
+git commit -m "update example"
+#1712869982
+git push origin main
+#1712869989
+ls
+#1712869996
+ls ../display*
+#1712870002
+cp display.py ../
+#1712870168
+open ./
+#1713075629
+exit
+#1713146240
+exit
+#1713187551
+exit
+#1712810684
+ls
+#1712810687
+. condaenv polarimetery
+#1712810691
+ls
+#1712810696
+jupyter-notebook 
+#1713199665
+exit
+#1712855918
+ls
+#1712855924
+python readfl.py 
+#1712856810
+c
+#1712856812
+python readfl.py 
+#1712857484
+python readfl.py 
+#1712857548
+python
+#1712857584
+python readfl.py 
+#1712857605
+python readfl.py 
+#1712857674
+python readfl.py 
+#1712857692
+python readfl.py 
+#1712857764
+python readfl.py 
+#1712857830
+python readfl.py 
+#1712857842
+python example.py
+#1712857927
+ls
+#1712857928
+clear
+#1712857929
+ls
+#1712857935
+rm -rf __pycache__/
+#1712857936
+ls
+#1712857944
+rm -rf extras/
+#1712857945
+ls
+#1712857952
+ls
+#1712857954
+cd ../
+#1712857955
+ls
+#1712858124
+open dispfile/
+#1713280908
+clear
+#1713280909
+ls
+#1713282111
+ls
+#1713282113
+cd ../
+#1713282114
+ls
+#1713282115
+cd codes/
+#1713282116
+ls
+#1713282127
+open Kavish\ -\ spin\ stuff/linear_spinflipper_nutator_runge_kutta.py 
+#1713282135
+code Kavish\ -\ spin\ stuff/linear_spinflipper_nutator_runge_kutta.py 
+#1713282151
+ls
+#1713282154
+cd Kavish\ -\ spin\ stuff/
+#1713282154
+ls
+#1713282157
+cd B\ fields/
+#1713282157
+ls
+#1713282159
+ls *.txt
+#1713282166
+clear
+#1713282167
+ls
+#1713554386
+exit
+#1713187822
+ssh hrahangd@login.isaac.utk.edu
+#1713500369
+c
+#1713500370
+ls
+#1713500374
+ssh hrahangd@login.isaac.utk.edu
+#1713537980
+clear
+#1713537981
+ls
+#1713537983
+c
+#1713537983
+ls
+#1713537987
+ssh hrahangd@login.isaac.utk.edu
+#1713563221
+exit
+#1713068836
+ssh hrahangd@login.isaac.utk.edu
+#1713146249
+c
+#1713146250
+ssh hrahangd@login.isaac.utk.edu
+#1713187563
+ls
+#1713187568
+cd
+#1713187571
+cd IndiaWork/
+#1713187572
+ls
+#1713187574
+cd ElectronImpact/
+#1713187575
+ls
+#1713187577
+cd penelope/
+#1713187578
+ls
+#1713187579
+c
+#1713187579
+ls
+#1713187581
+cd Simulation/
+#1713187581
+ls
+#1713187583
+cd checkangle/
+#1713187583
+ls
+#1713187590
+mkdir code
+#1713187594
+ls
+#1713187597
+cd code/
+#1713187598
+ls
+#1713187601
+mv ../* ./
+#1713187602
+ls
+#1713187605
+cd ../
+#1713187620
+clear
+#1713187621
+ls
+#1713187627
+cd code/
+#1713187628
+ls
+#1713187630
+vim project.f 
+#1713187721
+clear
+#1713187721
+ls
+#1713187725
+rm a.out 
+#1713187726
+ls
+#1713187731
+rm answer94
+#1713187732
+ls
+#1713187740
+rm answer94_1 
+#1713187740
+ls
+#1713187747
+vim project.f 
+#1713187900
+ls
+#1713187903
+vim project.f 
+#1713187919
+gfortran project.f
+#1713187924
+./a.out 
+#1713188378
+vim project.f 
+#1713188446
+gfortran project.f
+#1713188463
+./a.out 
+#1713189054
+ls
+#1713189055
+lll
+#1713189453
+ls
+#1713189454
+clear
+#1713189455
+ls
+#1713189457
+lll
+#1713189541
+cd ../
+#1713189541
+ls
+#1713189543
+cd ../
+#1713189544
+ls
+#1713189546
+cd checkangle/
+#1713189547
+ls
+#1713189610
+ls
+#1713189676
+scp -R hrahangd@login.isaac.utk.edu:/lusture/isaac/scratch/hrahangd/penelope/anglecheck
+#1713189682
+scp -R hrahangd@login.isaac.utk.edu:/lusture/isaac/scratch/hrahangd/penelope/anglecheck ./
+#1713189731
+scp -R hrahangd@login.isaac.utk.edu:/lustre/isaac/scratch/hrahangd/penelope/anglecheck ./
+#1713189755
+scp -r hrahangd@login.isaac.utk.edu:/lustre/isaac/scratch/hrahangd/penelope/anglecheck ./
+#1713189812
+ls
+#1713189822
+mv anglecheck/* ./
+#1713189822
+ls
+#1713189828
+rm -rf anglecheck/
+#1713192007
+ls
+#1713192015
+cd code/
+#1713192015
+ls
+#1713192041
+mv answer94 oldan94
+#1713192049
+mv answer94_electron electronpath
+#1713192061
+mv answer_fullenergy oldan_fullen
+#1713554393
+ls
+#1713554394
+ls
+#1713554395
+clear
+#1713554415
+ls
+#1713554417
+pwd
+#1713554419
+cd ../
+#1713554420
+ls
+#1713554424
+cd code/
+#1713554424
+ls
+#1713554439
+rm oldan*
+#1713554441
+clear
+#1713554442
+ls
+#1713554445
+rm a.out 
+#1713554447
+vim project.f 
+#1713554500
+gfortran project.f
+#1713554508
+time ./a.out 
+#1713554626
+vim project.f 
+#1713554666
+gfortran -O2 project.f 
+#1713554678
+time ./a.out 
+#1713554701
+vim project.f 
+#1713554718
+mv answer94 answer94_1000cut
+#1713554720
+vim answer94_1000cut 
+#1713554732
+gfortran -O2 project.f 
+#1713554741
+time ./a.out 
+#1713555230
+ls
+#1713555232
+ll
+#1713555236
+lll
+#1713555249
+vim -O answer94*
+#1713555629
+c
+#1713555630
+ls
+#1713555635
+vim answer94*
+#1713555645
+rm answer94*
+#1713555645
+ls
+#1713555648
+vim project.f 
+#1713555751
+gfortran -O2 project.f 
+#1713555762
+./a.out 
+#1713555783
+c
+#1713555785
+ls
+#1713555793
+vim project.f 
+#1713555807
+mv answer94 answer94_uncut
+#1713555812
+gfortran -O2 project.f 
+#1713555820
+rm a.out 
+#1713555823
+gfortran -O2 project.f 
+#1713555874
+pwd
+#1713555879
+ls
+#1713555881
+./a.out 
+#1713555954
+ls
+#1713555955
+c
+#1713555956
+ll
+#1713555962
+vim -O answer94*
+#1713555997
+vim project.f 
+#1713556025
+rm answer94*
+#1713556027
+c
+#1713556031
+gfortran -O2 project.f 
+#1713556041
+time ./a.out 
+#1713556855
+ls
+#1713556861
+vim project.f 
+#1713556873
+mv answer94 answer94_uncut
+#1713556878
+vim project.f 
+#1713556896
+gfortran -O2 project.f 
+#1713556910
+time ./a.out 
+#1713556938
+vim -O answer94*
+#1713557533
+ls
+#1713557536
+rm answer94*
+#1713563223
+exit
+#1713187938
+ls
+#1713187951
+cd ../Simulation/checkangle/code/
+#1713187951
+ls
+#1713187953
+c
+#1713187954
+ll
+#1713187969
+vim answer94
+#1713187982
+ll
+#1713187983
+lll
+#1713187988
+lll
+#1713187991
+lll
+#1713187995
+lll
+#1713188001
+lll
+#1713188002
+lll
+#1713188006
+lll
+#1713188008
+lll
+#1713188014
+vim answer94
+#1713188052
+ll
+#1713188054
+lll
+#1713188130
+ls
+#1713188131
+c
+#1713188132
+lll
+#1713188142
+vim answer94
+#1713188353
+lll
+#1713188371
+mv answer94 answer_fullenergy
+#1713563224
+clear
+#1713563226
+ls
+#1713563228
+exit
+#1713188535
+history 0
+#1713188543
+history
+#1713188619
+zsh
+#1713188933
+clear
+#1713188933
+ls
+#1713563234
+exit
+#1713582679
+ssh hrahangd@login.isaac.utk.edu
+#1713582694
+ssh hrahangd@login.isaac.utk.edu
+#1713582712
+ssh hrahangd@login.isaac.utk.edu
+#1713663458
+c
+#1713663460
+python
+#1713663504
+ls
+#1713663508
+ssh hrahangd@login.isaac.utk.ed
+#1713663513
+ssh hrahangd@login.isaac.utk.edu
+#1713663526
+ssh hrahangd@login.isaac.utk.edu
+#1713666417
+s
+#1713666418
+ls
+#1713666420
+clear
+#1713666420
+ls
+#1713666424
+ssh hrahangd@login.isaac.utk.edu
+#1713707958
+ssh hrahangd@login.isaac.utk.edu
+#1713731303
+c
+#1713731304
+c
+#1713731306
+ssh hrahangd@login.isaac.utk.edu
+#1713732100
+exit
+#1713616964
+ssh hrahangd@login.isaac.utk.edu
+#1713616981
+ssh hrahangd@login.isaac.utk.edu
+#1713744440
+ssh hrahangd@login.isaac.utk.edu
+#1713744562
+exit
+#1713901553
+exit
+#1713847058
+ls
+#1713847060
+cd ../
+#1713847061
+ls
+#1713847063
+cd Simulation/
+#1713847063
+ls
+#1713847074
+rm -rf checkangle/
+#1713847084
+scp -r hrahangd@login.isaac.utk.edu:/lustre/isaac/scratch/hrahangd/penelope/anglecheck ./
+#1713882465
+ls
+#1713882468
+cd ../notebook/
+#1713882469
+ls
+#1713882481
+code displayfiles/
+#1713903987
+ls
+#1713903989
+cd displayfiles/
+#1713903990
+ls
+#1713903998
+mv testbackword.py test.py
+#1713904002
+git add -A
+#1713904029
+git commit -m "Rewrite the display function using os module"
+#1713904034
+git push origin main
+#1713904048
+ls
+#1713904061
+cp display.py ../
+#1713904569
+ls
+#1713904581
+git add -A
+#1713904597
+git commit -m "commented out something"
+#1713904602
+git push origin main
+#1713904620
+cp display.py ../
+#1713906902
+c
+#1713906903
+ls
+#1713906904
+cd ../
+#1713906904
+ls
+#1713906907
+ssh hrahangd@login.isaac.utk.edu
+#1713921809
+exit
+#1713921695
+ssh hrahangd@login.isaac.utk.edu
+#1713922381
+exit
+#1713908183
+ls
+#1713908187
+cd ../Simulation/
+#1713908187
+ls
+#1713908190
+cd anglecheck/longruns/
+#1713908191
+ls
+#1713908193
+cd 30keV/
+#1713908194
+ls
+#1713908202
+vim Run3/answer55921536 
+#1713908210
+rm -rf Run3/
+#1713908216
+rm -rf Run4/
+#1713908220
+rm -rf Run5/
+#1713908221
+ls
+#1713908243
+scp -r hrahangd@login.isaac.utk.edu:/lustre/isaac/scratch/hrahangd/penelope/anglecheck/longruns/30keV/Run8 ./
+#1713970393
+ls
+#1713970394
+clear
+#1713970395
+ls
+#1713970400
+ssh hrahangd@login.isaac.utk.edu
+#1713977054
+exit
+#1713847645
+ls
+#1713847654
+. condaenv polarimetery
+#1713847657
+python
+#1713847695
+. condaenv penelope
+#1713847712
+vim ~/.mybashscripts/condaenv 
+#1713847742
+. condaenv electronimpact
+#1713847766
+python
+#1713847784
+conda install hvplot
+#1713880754
+ssh hrahangd@login.isaac.utk.edu
+#1713880831
+ls
+#1713880833
+cd ../
+#1713880834
+ls
+#1713880838
+cd Simulation/
+#1713880839
+ls
+#1713971458
+ls
+#1713971462
+pwd
+#1713971467
+cd anglecheck/longruns/
+#1713971468
+ls
+#1713971470
+cd 30keV/
+#1713971471
+ls
+#1713971506
+scp -r hrahangd@login.isaac.utk.edu:/lustre/isaac/scratch/hrahangd/penelope/anglecheck/longruns/30keV/Run3 ./
+#1713971549
+scp -r hrahangd@login.isaac.utk.edu:/lustre/isaac/scratch/hrahangd/penelope/anglecheck/longruns/30keV/Run4 ./
+#1713975043
+ls
+#1713977057
+c
+#1713977058
+ls
+#1713977059
+exit
+#1713906954
+cd ../Simulation/anglecheck/longruns/30keV/
+#1713906955
+ls
+#1713977061
+exit
+#1713774191
+ssh hrahangd@login.isaac.utk.edu
+#1713796240
+ssh hrahangd@login.isaac.utk.edu
+#1713846962
+ssh hrahangd@login.isaac.utk.edu
+#1714057845
+ls
+#1714057845
+c
+#1714057848
+ssh hrahangd@login.isaac.utk.edu
+#1714057921
+exit
+#1714070974
+updateconda.sh 
+#1714071252
+cd
+#1714071260
+conda init --reverse --all
+#1714071287
+conda activate
+#1714071314
+ls
+#1714071322
+vim .bash_profile
+#1714071435
+exit
+#1714071090
+conda activate analysis
+#1714071108
+conda
+#1714071115
+clear
+#1714071124
+conda activate analysis
+#1714071131
+conda init
+#1714071436
+exit
+#1714071703
+exit
+#1714071707
+exit
+#1714071736
+brew update
+#1714071750
+brew upgrade
+#1714072062
+ls
+#1714072070
+vim .bash_history 
+#1714072176
+vim .bash_history 
+#1714072181
+exit
+#1713883858
+python testbackword.py 
+#1713883880
+python testbackword.py 
+#1713883963
+python testbackword.py 
+#1713883979
+python testbackword.py 
+#1713884006
+python testbackword.py 
+#1713884105
+python testbackword.py 
+#1713884189
+python testbackword.py 
+#1713884225
+python testbackword.py 
+#1713884290
+python testbackword.py 
+#1713884355
+python testbackword.py 
+#1713884390
+python testbackword.py 
+#1713884402
+c
+#1713901212
+c
+#1713901215
+python testbackword.py 
+#1713901235
+python testbackword.py 
+#1713901550
+bash
+#1713901870
+ls
+#1713901874
+python example.py 
+#1713901881
+vim example.py 
+#1713901910
+python example.py 
+#1713903521
+python testbackword.py 
+#1713903556
+k
+#1713903558
+python testbackword.py 
+#1713903616
+python testbackword.py 
+#1713903675
+python testbackword.py 
+#1713903689
+python testbackword.py 
+#1713903697
+python testbackword.py 
+#1713903907
+python testbackword.py 
+#1713903958
+cp display.py display_old.py
+#1713904870
+python display.py 
+#1713904890
+python display.py 
+#1713904901
+python display.py 
+#1713905052
+python display.py 
+#1713905255
+python display.py 
+#1713905284
+cp display.py ../
+#1713905295
+git add -A
+#1713905303
+git commit -m "update example"
+#1713905309
+git push origin main
+#1713906340
+cd ../
+#1713906340
+ls
+#1713906342
+cd ../
+#1713906345
+sl
+#1713906346
+ls
+#1713906354
+cd Simulation/anglecheck/longruns/16keV/
+#1713906354
+ls
+#1713906358
+cd Run7/
+#1713906359
+ls
+#1713906364
+vim answer3633979 
+#1713906402
+vim project.f 
+#1713906436
+vim project.f 
+#1713906446
+vim answer39672159 
+#1714070831
+cd ../
+#1714070831
+ls
+#1714070833
+cd ../
+#1714070833
+ls
+#1714070834
+c
+#1714070835
+cd
+#1714070835
+ls
+#1714070838
+cd TNwork/
+#1714070839
+ls
+#1714070864
+ ls
+#1714070869
+. condaenv
+#1714070869
+ls
+#1714070873
+cd 
+#1714070879
+cd .mybashscripts/
+#1714070879
+ls
+#1714070884
+vim updateconda.sh 
+#1714070896
+bunny
+#1714070911
+c
+#1714070912
+ls
+#1714070922
+vim -O *con*
+#1714071428
+c
+#1714071437
+ls
+#1714071438
+cd
+#1714071439
+c
+#1714071441
+vim .bash_profile
+#1714073255
+code .bash_profile
+#1714073781
+code .bash_profile
+#1714075308
+ls
+#1714075315
+exit
+#1714072476
+ls
+#1714072478
+ls .mybashscripts/
+#1714072484
+ls .
+#1714072491
+ls ~/.
+#1714072498
+lll
+#1714072634
+brew install fzf
+#1714072666
+ eval "$(fzf --bash)"
+#1714072667
+ls
+#1714072701
+fzf
+#1714072731
+fzf
+#1714072745
+vim fzf
+#1714072928
+history
+#1714073202
+history
+#1714073205
+clear
+#1714073207
+hisotry
+#1714073209
+history
+#1714075318
+exit
+#1714075407
+ls
+#1714075412
+history
+#1714075440
+ls
+#1714075441
+clear
+#1714075443
+ls
+#1714075444
+ls
+#1714075444
+ls
+#1714075445
+ls
+#1714075446
+ls
+#1714075446
+ls
+#1714075447
+ls
+#1714075448
+ls
+#1714075448
+ls
+#1714075449
+ls
+#1714075450
+ls
+#1714075450
+ls
+#1714075487
+exit
+#1714075460
+vim .mybashscripts/bash_history 
+#1714075473
+vim .mybashscripts/bashhistory 
+#1714075481
+vim .bash_history 
+#1714075835
+clear
+#1714075836
+ls
+#1714075837
+exit
+#1714075842
+exit

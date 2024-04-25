@@ -29,14 +29,14 @@ elif [ $1 == "nlife" ]; then
     conda activate nlife
     echo "*********nlife********* activated"
 
-elif [ $1 == "penelope" ]; then
-    conda activate penelope
+elif [ $1 == "electronimpact" ]; then
+    conda activate electronimpact
     echo "*********penelope********* activated"
 
 
 
 elif [ $1 == "list" ]; then
-    echo "analysis polarimetery base nabonline geant4 nabsimanalysis penelope" 
+    echo "analysis polarimetery base nabonline geant4 nabsimanalysis electronimpact" 
     echo "analysis --> For BL2 Analsysis" 
 
 
