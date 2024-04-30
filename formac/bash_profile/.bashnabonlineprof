@@ -1,0 +1,3 @@
+conda activate nabonline
+#source /opt/homebrew/bin/thisroot.sh
+source ~/.bashps1.sh

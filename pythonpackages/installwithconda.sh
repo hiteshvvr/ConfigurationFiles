@@ -6,6 +6,9 @@ if [ $1 == "normal" ]; then
 elif [ $1 == 'forpyqt' ]; then
     conda install -c conda-forge pyqt pyqtgraph jupyter
 
+elif [ $1 == 'nabonline' ]; then
+    conda install -c conda-forge pyside6 pyqtgraph dask  
+
 elif [ $1 == 'root' ]; then
     conda install -c conda-forge root geant4 uproot
 
