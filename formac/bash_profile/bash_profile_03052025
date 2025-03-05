@@ -1,0 +1,107 @@
+# .bashrc
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+#####################################################################################
+#PATHS
+export PATH=/opt/homebrew/anaconda3/bin:/opt/homebrew/anaconda3/condabin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/CMake.app/Contents/bin
+export PATH=$PATH:~/.mybashscripts
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+export PATH=$PATH:/Applications/CMake.app/Contents/bin
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
+
+#####################################################################################
+#History in bashrc
+export HISTTIMEFORMAT="%d/%m|%T -> "
+HISTSIZE=10000
+HISTFILESIZE=20000
+
+
+
+#####################################################################################
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/homebrew/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/homebrew/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/homebrew/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/homebrew/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+#####################################################################################
+#Plugins
+
+# Set up fzf key bindings and fuzzy completion
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+eval "$(fzf --bash)"
+eval "$(zoxide init bash)"
+# Add fzf history search
+fzf-history-widget() {
+  local selected
+  selected=$(HISTTIMEFORMAT= history | fzf +s --tac --tiebreak=index --toggle-sort=`echo -e "\033[24~"`) && 
+  if [ -n "$selected" ]; then
+    local cmd=$(echo "$selected" | sed 's/^\s*[0-9]\+\s*//')
+    READLINE_LINE="$cmd"
+  fi
+}
+bind -x '"\C-r": fzf-history-widget'
+
+#for bash-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
+#For autojump
+[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+
+#####################################################################################
+# Specific Settings
+set -o vi
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+
+#####################################################################################
+#Colorful terminal
+# export TERM=xterm-256color
+# case "$TERM" in
+#     xterm|xterm-color|*-256color) color_prompt=yes;;
+# esac
+eval $(dircolors ~/.dircolors/mydircolor)
+# dircolors ~/.dircolors/mydircolor
+
+#####################################################################################
+# Final source to make prompt beautiful
+source .profile
+source ~/.bashps1.sh
+source ~/.config/lf/lfcd.sh
+
+#####################################################################################
+# bindings
+bind Space:magic-space
+bind TAB:menu-complete
+
+#####################################################################################
+# Aliases
+alias c='clear'
+alias vi='vim'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+# ls specific
+alias ls='ls --color=auto'
+alias ll='ls -lah'
+alias la='ls -a'
+alias l='ls -1'
+#lsd specific
+alias ls='lsd --color=auto'
+alias ll='lsd -lah'
+alias la='lsd -a'
+alias l='lsd -1'
