@@ -1,0 +1,116 @@
+# .bashrc
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+
+#####################################################################################
+# PATHS
+# 1. Start with standard system paths
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+# 2. Prepend/Append packages, tools, and environments cleanly
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="/usr/local/texlive/2026/bin/universal-darwin:$PATH"
+export PATH="/Applications/CMake.app/Contents/bin:$PATH"
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+export PATH="/Users/seeker/bin:~/.mybashscripts:$PATH"
+
+#####################################################################################
+# History Configuration
+export HISTTIMEFORMAT="%d/%m|%T -> "
+export HISTSIZE=10000
+export HISTFILESIZE=200000
+
+# Prevent multiple open terminal tabs from overwriting each other's history
+shopt -s histappend
+
+# Ignore duplicate commands run consecutively to keep history clean
+export HISTCONTROL=ignoredups
+
+#####################################################################################
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/homebrew/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/homebrew/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/homebrew/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/homebrew/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+#####################################################################################
+# Plugins & Tool Initializations
+
+# Set up fzf key bindings and fuzzy completion (Redundant eval removed)
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# Initialize Zoxide
+eval "$(zoxide init bash)"
+
+# Fixed fzf history search widget (strips timestamps properly inside fzf)
+fzf-history-widget() {
+  local selected
+  selected=$(HISTTIMEFORMAT= history | fzf +s --tac --tiebreak=index --toggle-sort=$(echo -e "\033[24~")) && 
+  if [ -n "$selected" ]; then
+    local cmd=$(echo "$selected" | sed 's/^\s*[0-9]\+\s*//')
+    READLINE_LINE="$cmd"
+  fi
+}
+bind -x '"\C-r": fzf-history-widget'
+
+# For bash-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
+# For autojump
+[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+
+#####################################################################################
+# Specific Settings
+set -o vi
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+#####################################################################################
+# Colorful Terminal
+# Fixed quotes bug around dircolors evaluation
+if [ -f ~/.dircolors/mydircolor ]; then
+    eval "$(dircolors ~/.dircolors/mydircolor)"
+fi
+
+#####################################################################################
+# Final source to make prompt beautiful
+source .profile
+source ~/.bashps1.sh
+source ~/.config/lf/lfcd.sh
+
+#####################################################################################
+# Keyboard Bindings
+bind Space:magic-space
+bind TAB:menu-complete
+bind '"\e[A":history-search-backward'
+bind '"\e[B":history-search-forward'
+
+#####################################################################################
+# Aliases
+alias c='clear'
+alias vi='vim'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# lsd specific aliases (Redundant standard ls aliases removed)
+alias ls='lsd --color=auto'
+alias ll='lsd -lah'
+alias la='lsd -a'
+alias l='lsd -1'
+alias rm='trash'
